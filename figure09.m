@@ -11,13 +11,7 @@ for target_year = 2014:2016
     figure(214)
     for ii = 1:2
         sb(ii)=subplot(1,2,ii)
-        
-        if target_year == 2015 && ii == 1
-            sc = 3000;
-        else
-            sc = 300;
-        end
-        
+        sc = 300;
         switch ii
             case 1
                 ens = 'passive';
