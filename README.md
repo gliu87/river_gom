@@ -6,3 +6,4 @@ Note, the ensemble names need to be double checked since the definition of "acti
 
 Some intermediate datasets are not uploaded here due to relatively large file size, however, they are easy to be prepared, for example, relative vorticity, gradient calculation. Most of the related helper functions can be obtained from ROMS tools or rnt_toolbox
 
+There're some minor mismatches between codes and figures, for example, different sections selected. Simply change the right sections, and you will get the right figure.
