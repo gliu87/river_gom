@@ -101,7 +101,7 @@ colormap(cm4jet);
 caxis([-2 2])
 ylim([-800, 0])
 title(['active'])
-yl(1) = ylabel('26.5N');
+yl(1) = ylabel('26N');
 xticklabels([])
 box on
 
@@ -145,7 +145,7 @@ plot(grd.lonp(:,1), ZR(:,1), 'b-')
 colormap(cm4jet);
 caxis([-2 2])
 ylim([-800, 0])
-yl(2) = ylabel('27.5N');
+yl(2) = ylabel('27N');
 xticklabels([])
 box on
 
@@ -188,7 +188,7 @@ plot(grd.lonp(:,1), ZR(:,1), 'b-')
 colormap(cm4jet);
 caxis([-2 2])
 ylim([-800, 0])
-yl(3) = ylabel('28.5N');
+yl(3) = ylabel('28N');
 box on
 
 sb(8)=subplot(3,3,8)
